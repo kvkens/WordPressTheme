@@ -1,0 +1,55 @@
+a{text-decoration: none;}
+.clear{clear:both}
+#muThe{margin-top: 30px;}
+.muTit{height: 41px;line-height: 40px;text-align: center;border-bottom: 1px solid #ccc;}
+.muTit a{display: block;height: 40px;width: 120px;background-color: #E4E4E4;border:1px solid #ccc;float: left;
+		font-size: 17px;margin-left: 8px;
+		color: #6B6B6B;
+		font-family: "Microsoft YaHei";
+		font-weight: bold;
+}
+.muTit .muTitac{
+	border-bottom: 1px solid #F1F1F1;
+	background-color: #F1F1F1;
+	color: #000;
+}
+.muDivs{
+	position: relative;
+	font-size: 14px;
+	}
+.muDivs table tr{
+	height: 50px;line-height: 50px;
+}
+.muSub{
+	margin-left: 75px;
+	background-color: #1F1F1F;
+	width: 100px;
+	height: 35px;
+	color: #fff;
+	border: 0;
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+}
+.ggNumSub{
+	background-color: #1F1F1F;
+	width: 60px;
+	height: 30px;
+	color: #fff;
+	border: 0;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+}
+.muText{
+	width: 370px;
+	}
+.muTheG{
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+}
+.muTheG a{color: red;}
+.muGgp{font-size: 13px;
+	line-height: 1.5;
+	margin: 1em 0;}
+.ggHr{border: 0;border-top: 1px solid #ddd;border-bottom: 1px solid #fafafa;}
+.gNum{width: 50px;}
