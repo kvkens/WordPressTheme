@@ -6,5 +6,6 @@
 		</div>
 	<script type="text/javascript" src="<?php bloginfo('template_directory')?>/js/responsiveslides.min.js" ></script>
 	<script type="text/javascript" src="<?php bloginfo('template_directory')?>/js/fullstack.min.js" ></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory')?>/js/lightbox.js" ></script>
 	</body>
 </html>

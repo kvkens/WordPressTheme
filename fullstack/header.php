@@ -25,6 +25,7 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
 <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/css/base.min.css" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory')?>/css/lightbox.css" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/fonts/fonts.min.css" />
 <script type="text/javascript" src="<?php bloginfo('template_directory')?>/js/jquery-1.10.2.min.js" ></script>
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name');?> RSS Feed" href="<?php bloginfo('rss2_url');?>" />
