@@ -11,7 +11,7 @@ module.exports = function(grunt) {
         sourceMapName: 'build/main.map'
       },
       build: {
-        src: ['fullstack/js/loading.js','fullstack/js/index.js','fullstack/js/gg.js'],
+        src: ['fullstack/js/loading.js','fullstack/js/index.js','fullstack/js/gg.js','fullstack/js/lightbox.js'],
         dest: 'fullstack/js/fullstack.min.js'
       }
     },
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 					//expand: true,
 					//Ïà¶ÔÂ·¾¶
 					//cwd: 'css/',
-					src: ['fullstack/css/media.css','fullstack/css/highlightx.css'],
+					src: ['fullstack/css/media.css','fullstack/css/highlightx.css','fullstack/css/lightbox.css'],
 					//src : ['htdocs/wp-content/themes/fullstack/fonts/fonts.css'],
 					dest: 'fullstack/css/base.min.css'
 				}
