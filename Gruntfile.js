@@ -33,8 +33,11 @@ module.exports = function(grunt) {
 					//Ïà¶ÔÂ·¾¶
 					//cwd: 'css/',
 					src: ['fullstack/css/media.css','fullstack/css/highlightx.css','fullstack/css/lightbox.css'],
-					//src : ['htdocs/wp-content/themes/fullstack/fonts/fonts.css'],
 					dest: 'fullstack/css/base.min.css'
+				},
+				{
+					src: ['fullstack/style.source.css'],
+					dest: 'fullstack/style.css'
 				}
 			]
 		}
@@ -48,7 +51,7 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['uglify','cssmin']);
   grunt.registerTask('js', ['uglify']);
-	grunt.registerTask('css', ['cssmin']);
+  grunt.registerTask('css', ['cssmin']);
 
 
 };
