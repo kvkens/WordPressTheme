@@ -22,7 +22,7 @@
 </title>
 <meta name="keywords" content="<?php echo get_option('muKey'); ?>" />
 <meta name="description" content="<?php echo get_option('muDescript'); ?>" />
-<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="shortcut icon" href="<?php bloginfo('template_directory')?>/favicon.ico" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
 <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/css/base.min.css" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/fonts/fonts.min.css" />
